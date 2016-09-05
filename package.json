@@ -2,7 +2,10 @@
   "name": "git-contributions ",
   "version": "1.0.0",
   "description": "Get a user's Github Contributions in the last year/week/day.",
-  "repository": "mazdeh/git-contributions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mazdeh/git-contributions.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
