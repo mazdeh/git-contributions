@@ -34,4 +34,4 @@ NOTE: `username` is optional.
 
 # Motivation
 Github's API doesn't have an endpoint to contributions yet. This is a small package that scrapes the publicly available contributions chart from github.com.
-See it live on my [website](www.mazdeh.com).
+See it live on my [website](http://www.mazdeh.com).
