@@ -1,15 +1,28 @@
 {
-  "name": "scraper",
+  "name": "git-contributions ",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get a user's Github Contributions in the last year/week/day.",
+  "repository": "mazdeh/git-contributions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "github",
+    "contributions",
+    "user",
+    "daily",
+    "weekly",
+    "yearly"
+  ],
+  "author": {
+    "name": "Vahid Mazdeh",
+    "email": "vahid.mazdeh@gmail.com",
+    "url": "mazdeh.com"
+  },
+  "license": "MIT",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "git-user-name": "^1.2.0"
   }
 }
